@@ -1,0 +1,9 @@
+{
+	"comments": ["This file is intended for use by IDEs"],
+	"extends": "./.config/tsc/tsconfig.base.json",
+	"compilerOptions": {
+		"outDir": "dest"
+	},
+	"include": ["@types/**/*.d.ts", "src/**/*.ts"],
+	"exclude": ["node_modules", "tests/**/*"]
+}

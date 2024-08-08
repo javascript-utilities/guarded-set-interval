@@ -1,0 +1,19 @@
+## Development
+dev
+
+## NodeJS
+node_modules
+
+## CI/CD
+coverage
+
+## TypeScript artifacts
+targets
+tsconfig.tsbuildinfo
+
+## Typedoc artifacts
+docs
+
+## Vim (BTW™)
+*.swp
+*.swo

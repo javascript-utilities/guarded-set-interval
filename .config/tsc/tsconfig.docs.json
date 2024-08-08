@@ -1,0 +1,27 @@
+{
+	"comments": [
+		"This file is intended for use by CI/CD servers",
+		"For configuration options check: npm run docs -- --help"
+	],
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"removeComments": false
+	},
+	"include": ["../../src/index.ts", "../../@types/**/*"],
+	"exclude": ["../../src/__tests__/**/*"],
+	"typedocOptions": {
+		"entryPoints": ["../../src/index.ts"],
+		"excludeExternals": true,
+		"excludeReferences": true,
+		"gitRevision": "v1.0.1",
+		"hideBreadcrumbs": true,
+		"hideGenerator": true,
+		"hidePageTitle": false,
+		"hideParameterTypesInTitle": true,
+		"includeVersion": true,
+		"name": "Guarded Set Interval",
+		"out": "../../docs/api",
+		"readme": "none",
+		"plugin": ["typedoc-plugin-markdown", "typedoc-plugin-missing-exports"]
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+	"tagDefinitions": [
+		{
+			"tagName": "@author",
+			"syntaxKind": "block"
+		},
+		{
+			"tagName": "@description",
+			"syntaxKind": "block"
+		},
+		{
+			"tagName": "@implements",
+			"syntaxKind": "modifier"
+		},
+		{
+			"tagName": "@file",
+			"syntaxKind": "block"
+		},
+		{
+			"tagName": "@license",
+			"syntaxKind": "block"
+		},
+		{
+			"tagName": "@link",
+			"syntaxKind": "inline",
+			"allowMultiple": true
+		},
+		{
+			"tagName": "@note",
+			"syntaxKind": "block"
+		},
+		{
+			"tagName": "@notes",
+			"syntaxKind": "block"
+		},
+		{
+			"tagName": "@return",
+			"syntaxKind": "inline"
+		},
+		{
+			"tagName": "@see",
+			"syntaxKind": "inline",
+			"allowMultiple": true
+		}
+	],
+	"supportForTags": {
+		"@author": true,
+		"@description": true,
+		"@implements": true,
+		"@file": true,
+		"@license": true,
+		"@link": true,
+		"@note": true,
+		"@notes": true,
+		"@return": true,
+		"@see": true
+	}
+}
