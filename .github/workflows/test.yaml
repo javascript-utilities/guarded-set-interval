@@ -8,7 +8,6 @@ on:
       - src/**/*.ts
       - tests/**/*.ts
 
-  ## TODO: maybe prevent running when `tag` is published
   push:
     branches: [ main ]
     paths:
